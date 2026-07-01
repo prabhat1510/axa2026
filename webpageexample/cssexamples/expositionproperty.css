@@ -1,0 +1,25 @@
+h2{
+    position: absolute;/* The element is positioned relative to its first positioned(not static) ancestor*/
+    left: 100px;
+    top:150px;
+}
+#p1{
+    border: 2px solid ;
+    position: absolute;
+    left: 100px;
+    top:250px;
+}
+#p2{
+    border: 2px solid ;
+    position: absolute;
+    left: 100px;
+    top:300px;
+}
+h2.pos_left{
+    position:relative;
+    left: -10px;
+}
+h2.pos_right{
+    position:relative;
+    left: 50px;
+}

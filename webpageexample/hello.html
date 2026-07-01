@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Page</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css"></link>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="hello.js"></script>
+    </head>
+
+    <body>
+        <h1>Welcome to Sign In Page</h1>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <form>
+        <lable>UserName :</lable>
+        <input type="text" id="fname" name="fname" value="" required><br><br>
+        <lable>Password :</lable>
+        <input type="password" id="pass" name="pass" value="" minlength="4" maxlength="10" required><br><br>
+        <button id="login" type="button" class="btn btn-primary" onclick="validate()">Login</button>
+        <button id="reset" type="button" class="btn btn-primary">Reset</button>
+        </form>
+        </div>
+        <!-- <div class="col-md-6">
+        <img id="cat1" src="cat.jfif" alt="Cat Image" width="200" height="200"></div></div>
+        -->
+    </div>
+    </body>
+</html>

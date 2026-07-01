@@ -1,0 +1,13 @@
+/*
+    Subsequent Sibling or General Sibling Combinator(~)
+    The subsequent sibling combinator is used to select all elements that are
+    next siblings of 
+    a specified element.
+ 
+
+
+*/
+div ~ p{
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}

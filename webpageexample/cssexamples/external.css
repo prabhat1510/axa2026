@@ -1,0 +1,55 @@
+/* 
+    1. Element Selctor or Type Selector
+    It targets all HTML tags matching the specified tag name
+*/
+body{
+        background-color: #9fb937;
+    }
+
+p{
+    color:red;
+                
+}
+h1{
+    color:blue;
+}
+label{
+    color:blue;
+}
+button {
+     font-size: medium;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: blueviolet;
+}
+/*
+    2. Class Selector
+    It targets all elements containing the specified class attribute
+*/
+.c1{
+    background-color: aquamarine;
+    color: brown;
+    display: inline-block;
+}
+.c2{
+    color:black;
+}
+
+#p1{
+    color:black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p2{
+    color:blueviolet;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+    Universal Selector(*)
+    Matches every single element on the web page 
+
+*/
+*{
+    font-style: italic;
+}

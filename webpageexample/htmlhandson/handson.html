@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Hands On</title>
+    </head>
+    <body>
+        <lable>First Name : </lable>
+        <input type="text" id="firstname" value="" placeholder="Please enter your firstname" style="background-color: yellow; width:200px;"><br><br>
+        <lable>Last Name : </lable>
+        <input type="text" id="lastname" value="" placeholder="Please enter your lastname" style="background-color: yellow;  width:200px;"><br><br>
+        <label>Gender:</label>
+
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+
+<input type="radio" id="others" name="gender" value="Others">
+<label for="others">Others</label>
+
+<br><br>
+        <lable>Languages Known : </lable>
+        <input type="checkbox" id="html" name="html" value="HTML">
+        <lable for="html"> HTML</lable><input type="checkbox" id="css" name="css" value="CSS">
+        <lable for="css"> CSS</lable><input type="checkbox" id="js" name="js" value="JS">
+        <lable for="js"> JS</lable><br><br>
+        <lable for="address">Address :</lable><textarea id="address" name="address" rows="5" cols="50"></textarea><br><br>
+        <lable for="cities">Cities lived in :</lable><select name="cities" id="cities" multiple>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+        </select><br><br>
+        <lable for="phone">Contact number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[6-9]{1}-[0-9]{9}" maxlength="10"><br><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><lable for="color">My favorite color is :</label><br><br>
+        
+        </body>
+</html>
