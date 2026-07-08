@@ -19,7 +19,7 @@ public class BackAccountDemo {
         int accountNumber = sc.nextInt();
         System.out.println("Enter your pin");
         int pin = sc.nextInt();
-        Account account = new Account(accountNumber,pin,0);
+        Account account = new Account(accountNumber,pin,1000);
         String isPinVerified =  account.verifyPin(pin);
         if(isPinVerified.equals("PIN VALID")){
         while(true){

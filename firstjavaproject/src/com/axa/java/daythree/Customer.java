@@ -15,7 +15,7 @@ public class Customer {
     private String email;
     private String address;
 
-    //No argument constructor or default constructor c
+    //No argument constructor or default constructor
     public Customer(){
 
     }
@@ -29,8 +29,8 @@ public class Customer {
         this.address = addr;
     }
 
-    //Accessor Methods to access or modify the object data
-
+    //Accessor Methods to access or modify the object data outside the class
+    //Getter and Setter Methods
     public int getCustId() {
         return custId;
     }

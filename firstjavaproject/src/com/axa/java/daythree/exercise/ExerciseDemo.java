@@ -1,6 +1,5 @@
 package com.axa.java.daythree.exercise;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ExerciseDemo {

@@ -1,0 +1,7 @@
+Create a Calculator using Java
+This calculator will only addition and subtraction
+This program will take user input
+like numbers and operations they want to perform
+If user enter wrong input then it should prompt or ask user
+to renter the details and what operation they want to perform
+Program with terminate with valid user input.
